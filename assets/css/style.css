@@ -1,0 +1,31 @@
+:root {
+    --primary-color: #585931;
+    --secondary-color: #BF4904;
+    --tertiary-color: #024059;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    color: var(--tertiary-color);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* HEADER / NAV BAR STYLES START */
+
+/* HEADER / NAVBAR STYLES END */
+
+section {
+    padding: 60px;
+  }
+
+/* HERO STYLES START */
+.hero {
+    background-image: url('../images/hero.jpg');
+    background-size: cover;
+    display: flex;
+  }
