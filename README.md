@@ -1,16 +1,14 @@
-# Run Buddy, Inc
+# Edison Simondet Portfolio
 
 ## Purpose
-A website that offers fitness training services. 
+A website to showcase my programing prowess
 
 ## Built With
 * HTML
 * CSS
 
 ## Website
-https://lernantino.github.io/run-buddy/
+
 
 ## Contribution
-Made with ❤️ by [your name]
-
-### ©️2019 Run Buddy, Inc 
+Made with ❤️ by Edison Simondet
