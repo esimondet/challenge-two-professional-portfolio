@@ -28,4 +28,9 @@ section {
     background-image: url('../images/hero.jpg');
     background-size: cover;
     display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-attachment: fixed;
+    background-position: 50%;
   }
