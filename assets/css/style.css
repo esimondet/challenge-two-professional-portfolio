@@ -11,10 +11,13 @@
   }
 
 body {
-    color: var(--tertiary-color);
     font-family: Helvetica, Arial, sans-serif;
-    background-color: var(--primary-color);
+    background-image: url('../images/hero.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: var(--tertiary-color);
 }
+
 section {
     padding: 60px;
   }
@@ -24,32 +27,31 @@ section {
 }
 /* header styles start */
 
-header {
-    padding: 2vw 2.9vw;
+.banner {
+    padding: 1.5vw 2.9vw;
     background-color: var(--tertiary-color);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-header h1 {
+.banner h1 {
     font-weight: bold;
-    margin: 0;
     font-size: 3vw;
     color: var(--secondary-color);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-header a {
+.banner a {
     text-decoration: none;
     color: var(--secondary-color);
 }
 
-header nav {
+.banner nav {
     margin: 7px 0;
 }
 
-header nav ul {
+.banner nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -57,14 +59,14 @@ header nav ul {
     list-style: none;
 }
 
-header nav ul li a {
+.banner nav ul li a {
     padding: 10px 15px;
     font-weight: bold;
     font-size: 1.55vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-header nav ul li a:hover {
+.banner nav ul li a:hover {
     color: var(--tertiary-color);
     background-color: var(--secondary-color);
     font-weight: bolder;
@@ -76,14 +78,11 @@ header nav ul li a:hover {
 
 /* hero styles start */
 .hero {
-    background-image: url('../images/hero.jpg');
-    background-size: cover;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
-    background-attachment: fixed;
-    padding: 200px;
+    padding: 300px;
 }
 
 .tagline {
@@ -98,6 +97,39 @@ header nav ul li a:hover {
 
 /* end hero styles */
 
+/* About Me styles start */
+
+.about-me {
+    background-color: var(--primary-color);
+}
+
+.about-me h2 {
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 36px;
+    flex-wrap: none;
+    margin-bottom: 20px;
+}
+.about-me img {
+    width: 50%;
+    align-items: flex-end;
+}
+
+.about-me p {
+    padding: 25px;
+    line-height: 1.3;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* end About Me styles*/
+
 /* footer styles start */
+
+.banner div {
+    color: var(--secondary-color);
+}
 
 /* end footer styles */
