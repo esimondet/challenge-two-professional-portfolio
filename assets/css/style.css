@@ -101,6 +101,9 @@ section {
 
 .about-me {
     background-color: var(--primary-color);
+    border-radius: 15px;
+    margin: 15px;
+
 }
 
 .about-me h2 {
@@ -110,6 +113,12 @@ section {
     flex-wrap: none;
     margin-bottom: 20px;
 }
+
+.bio {
+    display: flex;
+    align-items: flex-start;
+}
+
 .about-me img {
     width: 50%;
     align-items: flex-end;
