@@ -45,7 +45,7 @@ section {
 .flex-row {
     display: flex;
 }
-/* header styles start */
+/* banner top/bottom styles start */
 
 .banner {
     padding: 1.5vw 2.9vw;
@@ -94,7 +94,7 @@ section {
     border-radius: 15px;
 }
 
-/* end header styles */
+/* end banner top/bottom styles */
 
 /* hero styles start */
 .hero {
@@ -113,6 +113,7 @@ section {
     text-shadow: 0 0 10px #ffff;
     position: static;
     flex-wrap: none;
+    text-align: center;
 }
 
 /* end hero styles */
@@ -125,34 +126,34 @@ section {
     margin-left: 62px;
     margin-right: 62px;
     padding: 40px;
-    text-align: center;
 }
 
 .about-me h2 {
     font-weight: bold;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 36px;
+    font-size: 32px;
     flex-wrap: none;
     padding-bottom: 30px;
-}
-
-.bio {
-    display: flex;
-    align-items: flex-start;
+    text-align: center;
 }
 
 .about-me img {
     width: 50%;
-    align-items: flex-end;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .about-me p {
     padding: 25px;
-    line-height: 1.3;
+    line-height: 1.5;
+    font-size: 1.5vw;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    text-align: center;
+    font-weight: bold;
 }
 
 /* end About Me styles*/
@@ -162,7 +163,7 @@ section {
 .my-work h2 {
     font-weight: bold;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 36px;
+    font-size: 32px;
     text-align: center;
     background-color: var(--primary-color);
     border-radius: 15px 15px 0 0;
@@ -242,10 +243,67 @@ section {
 
 /* end My Work styles*/
 
-/* footer styles start */
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    section {
+      padding: 0 auto;
+    }
 
-.banner div {
-    color: var(--secondary-color);
+    .hero {
+        padding: 150px;
+    }
 }
 
-/* end footer styles */
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    .banner h1 {
+        font-size: 3vw;
+        padding-top: 7px;
+    }
+    .banner nav {
+        margin: 4px 0;
+    }
+    .banner nav ul li a {
+        padding: 5px;
+        font-size: 2vw;
+    }
+
+    .about-me h2 {
+        font-size: 10vw;
+    }
+
+    .about-me p {
+        padding: 5px;
+        line-height: 1.3;
+        font-size: 2vw;
+    }
+
+    .about-me img {
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 20px;
+    }
+
+    .my-work h2 {
+        font-size: 10vw;
+    }
+    .projects {
+        padding: 5px;
+    }
+
+    .showcase-one h3 {
+        top: 77%;
+        left: 3%;
+    }
+    
+    .showcase-one h3 a {
+        padding: 10px 15px;
+    }
+    
+    .showcase-two h3, .showcase-three h3, .showcase-four h3, .showcase-five h3 {
+        top: 60%;
+        left: 2%;
+    }
+}
