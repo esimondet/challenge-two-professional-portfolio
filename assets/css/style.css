@@ -104,8 +104,7 @@ section {
     border-radius: 15px;
     margin-left: 62px;
     margin-right: 62px;
-    margin-top: 0;
-    margin-bottom: 0;
+    text-align: center;
 }
 
 .about-me h2 {
@@ -113,7 +112,7 @@ section {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 36px;
     flex-wrap: none;
-    margin-bottom: 20px;
+    padding: 15px;
 }
 
 .bio {
@@ -139,6 +138,16 @@ section {
 
 /* My Work styles start */
 
+.my-work h2 {
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 36px;
+    text-align: center;
+    background-color: var(--primary-color);
+    border-radius: 15px;
+    padding: 15px;
+}
+
 .projects {
     display: flex;
     flex-wrap: wrap; 
@@ -148,11 +157,31 @@ section {
 }
 
 .showcase-one {
-    width: 100%;
+    width: 95%;
+}
+
+.showcase-one h3 {
+    position: relative;
+    top: 90%;
+    left: 3%;
+    font-weight: bold;
+    font-size: 2vw;
+    color: var(--secondary-color);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .showcase-two, .showcase-three, .showcase-four, .showcase-five {
     width: 45%;
+}
+
+.showcase-two h3, .showcase-three h3, .showcase-four h3, .showcase-five h3 {
+    position: relative;
+    top: 85%;
+    left: 5%;
+    font-weight: bold;
+    font-size: 2vw;
+    color: var(--secondary-color);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .projects img {
