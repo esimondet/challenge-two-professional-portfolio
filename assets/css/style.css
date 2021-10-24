@@ -124,6 +124,7 @@ section {
     border-radius: 15px;
     margin-left: 62px;
     margin-right: 62px;
+    padding: 40px;
     text-align: center;
 }
 
@@ -132,7 +133,7 @@ section {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 36px;
     flex-wrap: none;
-    padding: 15px;
+    padding-bottom: 30px;
 }
 
 .bio {
@@ -164,8 +165,8 @@ section {
     font-size: 36px;
     text-align: center;
     background-color: var(--primary-color);
-    border-radius: 15px;
-    padding: 15px;
+    border-radius: 15px 15px 0 0;
+    padding-top: 15px;
 }
 
 .projects {
@@ -174,6 +175,9 @@ section {
     width: 100%;
     margin: 0 auto;
     justify-content: space-around;
+    background-color: var(--primary-color);
+    border-radius: 0 0 15px 15px;
+    padding: 15px;
 }
 
 .showcase-one {
@@ -200,7 +204,6 @@ section {
     color: var(--secondary-color);
     background-color: var(--tertiary-color);
     font-weight: bold;
-    text-shadow: none;
     border-radius: 15px;
 }
 
@@ -210,12 +213,25 @@ section {
 
 .showcase-two h3, .showcase-three h3, .showcase-four h3, .showcase-five h3 {
     position: relative;
-    top: 85%;
+    top: 80%;
     left: 5%;
+}
+
+.link {
+    padding: 10px 15px;
     font-weight: bold;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
+    color: var(--tertiary-color);
+    background-color: var(--primary-color);
+    border-radius: 15px;
+}
+
+
+.link:hover {
     color: var(--secondary-color);
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: var(--tertiary-color);
+    font-weight: bold;
+    border-radius: 15px;
 }
 
 .projects img {
