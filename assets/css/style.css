@@ -8,7 +8,27 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  }
+}
+
+a:link {
+    text-decoration: none;
+    color: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: none;
+}
+  
+a:active {
+    text-decoration: none;
+    color: none;
+}
 
 body {
     font-family: Helvetica, Arial, sans-serif;
@@ -164,10 +184,24 @@ section {
     position: relative;
     top: 90%;
     left: 3%;
+}
+
+.showcase-one h3 a {
+    padding: 10px 15px;
     font-weight: bold;
-    font-size: 2vw;
+    font-size: 1.55vw;
+    color: var(--tertiary-color);
+    background-color: var(--primary-color);
+    border-radius: 15px;
+}
+
+
+.showcase-one h3 a:hover {
     color: var(--secondary-color);
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: var(--tertiary-color);
+    font-weight: bold;
+    text-shadow: none;
+    border-radius: 15px;
 }
 
 .showcase-two, .showcase-three, .showcase-four, .showcase-five {
@@ -179,7 +213,7 @@ section {
     top: 85%;
     left: 5%;
     font-weight: bold;
-    font-size: 2vw;
+    font-size: 1.5vw;
     color: var(--secondary-color);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
