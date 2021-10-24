@@ -131,7 +131,7 @@ section {
 .about-me h2 {
     font-weight: bold;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 32px;
+    font-size: 5vw;
     flex-wrap: none;
     padding-bottom: 30px;
     text-align: center;
@@ -163,7 +163,7 @@ section {
 .my-work h2 {
     font-weight: bold;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 32px;
+    font-size: 5vw;
     text-align: center;
     background-color: var(--primary-color);
     border-radius: 15px 15px 0 0;
