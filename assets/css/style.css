@@ -125,7 +125,7 @@ section {
     border-radius: 15px;
     margin-left: 62px;
     margin-right: 62px;
-    padding: 40px;
+    padding: 15px;
 }
 
 .about-me h2 {
@@ -181,17 +181,17 @@ section {
     padding: 15px;
 }
 
-.showcase-one {
+.showcase-primary {
     width: 95%;
 }
 
-.showcase-one h3 {
+.showcase-primary h3 {
     position: relative;
     top: 90%;
     left: 3%;
 }
 
-.showcase-one h3 a {
+.showcase-primary h3 a {
     padding: 10px 15px;
     font-weight: bold;
     font-size: 1.55vw;
@@ -201,24 +201,24 @@ section {
 }
 
 
-.showcase-one h3 a:hover {
+.showcase-primary h3 a:hover {
     color: var(--secondary-color);
     background-color: var(--tertiary-color);
     font-weight: bold;
     border-radius: 15px;
 }
 
-.showcase-two, .showcase-three, .showcase-four, .showcase-five {
+.showcase-secondary {
     width: 45%;
 }
 
-.showcase-two h3, .showcase-three h3, .showcase-four h3, .showcase-five h3 {
+.showcase-secondary h3 {
     position: relative;
     top: 80%;
     left: 5%;
 }
 
-.link {
+.showcase-secondary h3 a {
     padding: 10px 15px;
     font-weight: bold;
     font-size: 1.3vw;
@@ -228,7 +228,7 @@ section {
 }
 
 
-.link:hover {
+.showcase-secondary h3 a:hover {
     color: var(--secondary-color);
     background-color: var(--tertiary-color);
     font-weight: bold;
@@ -293,16 +293,16 @@ section {
         padding: 5px;
     }
 
-    .showcase-one h3 {
+    .showcase-primary h3 {
         top: 77%;
         left: 3%;
     }
     
-    .showcase-one h3 a {
+    .showcase-primary h3 a {
         padding: 10px 15px;
     }
     
-    .showcase-two h3, .showcase-three h3, .showcase-four h3, .showcase-five h3 {
+    .showcase-secondary h3 {
         top: 60%;
         left: 2%;
     }
