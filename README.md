@@ -16,7 +16,7 @@ In this project advanced techniques were taken to highlight HTML and CSS underst
 * CSS
 
 ## Website
-You can view the live deployment [HERE](https://esimondet.github.io/challenge-two-professional-portfolio/)
+You can view the live deployment [HERE](https://esimondet.github.io/portfolio/)
 
 ## Screenshot of landing page
 ![Full page screenshot of Horiseon](assets/images/full-page-screenshot.png)
